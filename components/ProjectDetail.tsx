@@ -132,7 +132,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
                     className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all"
                   >
                     <HiExternalLink />
-                    {isPt ? "Ver Projeto" : "View Project"}
+                    {t.projects.viewProject}
                   </motion.a>
                 )}
                 {project.githubUrl && (
@@ -145,7 +145,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
                     className="flex items-center gap-2 px-6 py-3 bg-dark-700 hover:bg-dark-600 text-gray-300 rounded-lg font-semibold transition-colors border border-gray-600"
                   >
                     <HiCode />
-                    {isPt ? "Ver Código" : "View Code"}
+                    {t.projects.viewCode}
                   </motion.a>
                 )}
               </div>
@@ -181,7 +181,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
             className="mb-12"
           >
             <h2 className="text-3xl font-bold mb-6 text-primary-400">
-              {isPt ? "Screenshots" : "Screenshots"}
+              {t.projects.screenshots}
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {project.screenshots.map((screenshot, index) => (
