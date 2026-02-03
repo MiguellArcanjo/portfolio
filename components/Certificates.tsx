@@ -143,28 +143,27 @@ export default function Certificates() {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="fixed inset-4 md:inset-8 lg:inset-12 z-50 overflow-y-auto"
+              className="fixed inset-4 md:inset-8 lg:inset-12 z-50 overflow-hidden flex items-center justify-center p-4"
             >
-              <div className="min-h-full flex items-center justify-center p-4">
-                <motion.div
-                  className="bg-white dark:bg-dark-900 rounded-2xl border border-gray-200 dark:border-primary-500/20 shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-y-auto custom-scrollbar"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <div className="sticky top-0 bg-white/95 dark:bg-dark-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-primary-500/20 p-4 flex justify-between items-center z-10">
-                    <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                      {language === "pt" ? selectedCertificate.title : selectedCertificate.titleEn}
-                    </h2>
-                    <motion.button
-                      whileHover={{ scale: 1.1, rotate: 90 }}
-                      whileTap={{ scale: 0.9 }}
-                      onClick={() => setIsModalOpen(false)}
-                      className="p-2 rounded-lg bg-gray-100 dark:bg-dark-800 hover:bg-gray-200 dark:hover:bg-dark-700 text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-                    >
-                      ✕
-                    </motion.button>
-                  </div>
+              <motion.div
+                className="bg-white dark:bg-dark-900 rounded-2xl border border-gray-200 dark:border-primary-500/20 shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <div className="flex-shrink-0 bg-white/95 dark:bg-dark-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-primary-500/20 p-4 flex justify-between items-center z-10">
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                    {language === "pt" ? selectedCertificate.title : selectedCertificate.titleEn}
+                  </h2>
+                  <motion.button
+                    whileHover={{ scale: 1.1, rotate: 90 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={() => setIsModalOpen(false)}
+                    className="p-2 rounded-lg bg-gray-100 dark:bg-dark-800 hover:bg-gray-200 dark:hover:bg-dark-700 text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                  >
+                    ✕
+                  </motion.button>
+                </div>
 
-                  <div className="p-6 md:p-8">
+                <div className="p-6 md:p-8 overflow-y-auto flex-1 min-h-0 custom-scrollbar">
                     {selectedCertificate.image && (
                       <div className="relative mb-6 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 aspect-video w-full">
                         <Image
@@ -253,9 +252,8 @@ export default function Certificates() {
                         </motion.a>
                       )}
                     </div>
-                  </div>
-                </motion.div>
-              </div>
+                </div>
+              </motion.div>
             </motion.div>
           </>
         )}
