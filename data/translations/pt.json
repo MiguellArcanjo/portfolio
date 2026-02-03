@@ -13,7 +13,8 @@
     "title": "Desenvolvedor Backend",
     "subtitle": "Especializado em PHP, Python, JavaScript e migrando para Ciência de Dados e Machine Learning",
     "cta": "Ver Projetos",
-    "contact": "Entre em Contato"
+    "contact": "Entre em Contato",
+    "downloadResume": "Baixar currículo"
   },
   "about": {
     "title": "Sobre Mim",
@@ -22,10 +23,17 @@
   },
   "skills": {
     "title": "Habilidades & Tecnologias",
+    "mainTitle": "Principais habilidades",
+    "mainSubtitle": "As tecnologias que mais utilizo no dia a dia",
+    "subtitle": "Tecnologias e ferramentas que utilizo para criar soluções inovadoras",
     "languages": "Linguagens",
     "frameworks": "Frameworks & Bibliotecas",
     "tools": "Ferramentas & Outros",
-    "learning": "Estudando"
+    "learning": "Estudando",
+    "viewMore": "Ver todas",
+    "viewMoreHint": "Veja todas as tecnologias que uso no dia a dia",
+    "pageTitle": "Todas as Habilidades",
+    "pageSubtitle": "Conheça todas as tecnologias e ferramentas que utilizo"
   },
   "projects": {
     "title": "Projetos",

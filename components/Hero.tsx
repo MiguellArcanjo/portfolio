@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
-import { HiArrowDown } from "react-icons/hi";
+import { HiArrowDown, HiDownload } from "react-icons/hi";
 import { useLanguage } from "./LanguageProvider";
 
 export default function Hero() {
@@ -79,10 +80,23 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection("contact")}
-              className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gray-100 dark:bg-dark-800 border-2 border-primary-500 text-primary-600 dark:text-primary-400 rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-200 dark:hover:bg-dark-700 transition-all"
+              className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gray-100 dark:bg-dark-800 border-2 border-primary-500 text-gray-900 dark:text-white rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-200 dark:hover:bg-dark-700 transition-all"
             >
               {t.hero.contact}
             </motion.button>
+
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="w-full sm:w-auto">
+              <Link
+                href="/curriculo.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gray-100 dark:bg-dark-800 border-2 border-primary-500 text-gray-900 dark:text-white rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-200 dark:hover:bg-dark-700 transition-all"
+              >
+                <HiDownload className="text-lg" />
+                {t.hero.downloadResume}
+              </Link>
+            </motion.div>
           </motion.div>
 
           <motion.div

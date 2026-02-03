@@ -37,17 +37,15 @@
     "endDate": "Jun 2024",
     "current": false,
     "description": [
-      "Atuei no desenvolvimento de soluções full stack para sistemas acadêmicos e internos, contribuindo tanto no frontend quanto no backend das aplicações.",
-      "Desenvolvi interfaces responsivas e acessíveis utilizando React, Next.js, HTML5 e CSS3. Participei da construção e integração de APIs REST utilizando Java (Spring Boot), Node.js e PHP, além de realizar ajustes e manutenções em sistemas existentes.",
-      "Colaborei ativamente em cerimônias ágeis, incluindo daily stand-ups, planejamento de sprints e revisões de código, seguindo a metodologia Scrum. Também utilizei Git para controle de versão e GitHub para colaboração em equipe.",
-      "Apoiei decisões técnicas relacionadas à arquitetura das aplicações e à refatoração de código legado, contribuindo para melhorias de qualidade, desempenho e manutenibilidade dos sistemas.",
+      "No tempo que passei na Fabrica de Software, atuei como desenvolvedor Full-Stack, contribuindo para o desenvolvimento de um sistema de estoque para a farmacia universitaria Unipê.",
+      "Liderei a equipe de desenvolvimento Back-end e Auxiliei a equipe de Front-end na construção de telas e na conexão com a API",
+      "Colaborei ativamente em cerimônias ágeis, incluindo dailys, planejamento de sprints e revisões de código, seguindo a metodologia Scrum. Também utilizei Git para controle de versão e GitHub para colaboração em equipe.",
       "Ferramentas e tecnologias: React, Next.js, JavaScript, Java, Spring Boot, PHP, PostgreSQL, MySQL, Git, Postman, Figma e Scrum."
     ],
     "descriptionEn": [
-      "I worked on the development of full stack solutions for academic and internal systems, contributing to both the frontend and backend of applications.",
-      "I developed responsive and accessible interfaces using React, Next.js, HTML5 and CSS3. I participated in the construction and integration of REST APIs using Java (Spring Boot), Node.js and PHP, in addition to performing adjustments and maintenance on existing systems.",
-      "I actively participated in agile ceremonies, including daily stand-ups, sprint planning and code reviews, following the Scrum methodology. I also used Git for version control and GitHub for team collaboration.",
-      "I supported technical decisions related to the architecture of applications and the refactoring of legacy code, contributing to improvements in quality, performance and maintainability of systems.",
+      "During my time at the Software Factory, I worked as a Full-Stack developer, contributing to the development of a stock system for the university pharmacy Unipê.",
+      "I led the Back-end development team and assisted the Front-end team in building screens and connecting to the API",
+      "I actively participated in agile ceremonies, including dailys, sprint planning and code reviews, following the Scrum methodology. I also used Git for version control and GitHub for team collaboration.",
       "Tools and technologies: React, Next.js, JavaScript, Java, Spring Boot, PHP, PostgreSQL, MySQL, Git, Postman, Figma and Scrum."
     ]
   }

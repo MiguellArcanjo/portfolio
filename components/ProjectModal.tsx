@@ -77,21 +77,20 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
             className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50"
           />
 
-          {/* Modal */}
+          {/* Modal - só o conteúdo interno rola (uma barra de rolagem) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            className="fixed inset-4 md:inset-8 lg:inset-12 z-50 overflow-y-auto"
+            className="fixed inset-4 md:inset-8 lg:inset-12 z-50 overflow-hidden flex items-center justify-center p-4"
           >
-            <div className="min-h-full flex items-center justify-center p-4">
-              <motion.div
-                className="bg-white dark:bg-dark-900 rounded-2xl border border-gray-200 dark:border-primary-500/20 shadow-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto custom-scrollbar"
+            <motion.div
+              className="bg-white dark:bg-dark-900 rounded-2xl border border-gray-200 dark:border-primary-500/20 shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col overflow-hidden"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Close Button */}
-                <div className="sticky top-0 bg-white/95 dark:bg-dark-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-primary-500/20 p-4 flex justify-end z-10">
+                <div className="flex-shrink-0 bg-white/95 dark:bg-dark-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-primary-500/20 p-4 flex justify-end z-10">
                   <motion.button
                     whileHover={{ scale: 1.1, rotate: 90 }}
                     whileTap={{ scale: 0.9 }}
@@ -102,7 +101,7 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                   </motion.button>
                 </div>
 
-                <div className="p-6 md:p-8">
+                <div className="p-6 md:p-8 overflow-y-auto flex-1 min-h-0 custom-scrollbar">
                   {/* Project Header */}
                   <div className="flex flex-col md:flex-row gap-8 mb-8">
                     {/* Project Image */}
@@ -270,7 +269,6 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                   )}
                 </div>
               </motion.div>
-            </div>
           </motion.div>
         </>
       )}
