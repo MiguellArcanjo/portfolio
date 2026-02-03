@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { HiExternalLink, HiAcademicCap, HiCalendar, HiIdentification } from "react-icons/hi";
 import { useLanguage } from "./LanguageProvider";
 import certificatesData from "@/data/certificates.json";
@@ -68,10 +69,12 @@ export default function Certificates() {
               {/* Certificate Image/Icon */}
               <div className="relative h-48 bg-gradient-to-br from-primary-100/50 to-gray-100 dark:from-primary-900/50 dark:to-dark-800 flex items-center justify-center overflow-hidden">
                 {certificate.image ? (
-                  <img
+                  <Image
                     src={certificate.image}
                     alt={language === "pt" ? certificate.title : certificate.titleEn}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover"
                   />
                 ) : (
                   <div className="text-6xl text-primary-500/30 group-hover:scale-110 transition-transform">
@@ -163,11 +166,13 @@ export default function Certificates() {
 
                   <div className="p-6 md:p-8">
                     {selectedCertificate.image && (
-                      <div className="mb-6 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20">
-                        <img
+                      <div className="relative mb-6 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 aspect-video w-full">
+                        <Image
                           src={selectedCertificate.image}
                           alt={language === "pt" ? selectedCertificate.title : selectedCertificate.titleEn}
-                          className="w-full h-auto"
+                          fill
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          className="object-contain"
                         />
                       </div>
                     )}

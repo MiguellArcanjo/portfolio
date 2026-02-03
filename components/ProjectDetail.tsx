@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { HiExternalLink, HiCode, HiArrowLeft, HiCalendar, HiTag } from "react-icons/hi";
 import Link from "next/link";
 import { useLanguage } from "./LanguageProvider";
@@ -67,10 +68,12 @@ export default function ProjectDetail({ project }: { project: Project }) {
             <div className="md:w-1/2">
               <div className="relative h-64 md:h-96 rounded-lg overflow-hidden border border-primary-500/20 bg-gradient-to-br from-primary-900/50 to-dark-800">
                 {project.image ? (
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
                   />
                 ) : (
                   <div className="flex items-center justify-center h-full">
@@ -186,10 +189,12 @@ export default function ProjectDetail({ project }: { project: Project }) {
                   key={index}
                   className="relative h-64 rounded-lg overflow-hidden border border-primary-500/20 bg-dark-800"
                 >
-                  <img
+                  <Image
                     src={screenshot}
                     alt={`${project.title} screenshot ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
                   />
                 </div>
               ))}

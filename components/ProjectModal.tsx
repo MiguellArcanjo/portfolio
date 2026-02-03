@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { HiExternalLink, HiCode, HiX, HiCalendar, HiTag } from "react-icons/hi";
 import { useLanguage } from "./LanguageProvider";
 import { useEffect } from "react";
@@ -108,10 +109,12 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                     <div className="md:w-1/2">
                       <div className="relative h-64 md:h-96 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 bg-gradient-to-br from-primary-100/50 to-gray-100 dark:from-primary-900/50 dark:to-dark-800">
                         {project.image ? (
-                          <img
+                          <Image
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-full object-cover"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            className="object-cover"
                           />
                         ) : (
                           <div className="flex items-center justify-center h-full">
@@ -216,10 +219,12 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                             key={index}
                             className="relative h-48 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 bg-gray-100 dark:bg-dark-800"
                           >
-                            <img
+                            <Image
                               src={screenshot}
                               alt={`${project.title} screenshot ${index + 1}`}
-                              className="w-full h-full object-cover"
+                              fill
+                              sizes="(max-width: 768px) 100vw, 50vw"
+                              className="object-cover"
                             />
                           </div>
                         ))}

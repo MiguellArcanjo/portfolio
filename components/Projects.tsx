@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { HiExternalLink, HiCode, HiArrowRight } from "react-icons/hi";
 import { useLanguage } from "./LanguageProvider";
 import projectsData from "@/data/projects.json";
@@ -50,10 +51,12 @@ export default function Projects() {
                 className="relative h-48 bg-gradient-to-br from-primary-100/50 to-gray-100 dark:from-primary-900/50 dark:to-dark-800 flex items-center justify-center cursor-pointer overflow-hidden"
               >
                 {project.image ? (
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover"
                   />
                 ) : (
                   <div className="text-6xl text-primary-500/30">🚀</div>
