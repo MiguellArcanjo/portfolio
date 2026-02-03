@@ -33,7 +33,7 @@ export default function Projects() {
           <p className="text-lg text-gray-700 dark:text-gray-300">{t.projects.subtitle}</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {featuredProjects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -41,7 +41,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="bg-white dark:bg-dark-800/50 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 hover:border-primary-500/50 transition-all group shadow-lg dark:shadow-none"
+              className="w-full max-w-md flex-[1_1_100%] md:flex-[1_1_calc(50%-1rem)] lg:flex-[1_1_calc(33.333%-1.33rem)] min-w-0 bg-white dark:bg-dark-800/50 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 hover:border-primary-500/50 transition-all group shadow-lg dark:shadow-none"
             >
                 <div 
                 onClick={() => {

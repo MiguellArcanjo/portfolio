@@ -52,7 +52,7 @@ export default function Certificates() {
           <p className="text-lg text-gray-700 dark:text-gray-300">{t.certificates.subtitle}</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {certificatesData.map((certificate, index) => (
             <motion.div
               key={certificate.id}
@@ -64,7 +64,7 @@ export default function Certificates() {
                 setSelectedCertificate(certificate);
                 setIsModalOpen(true);
               }}
-              className="bg-white dark:bg-dark-800/50 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 hover:border-primary-500/50 transition-all cursor-pointer group shadow-lg dark:shadow-none"
+              className="w-full max-w-md flex-[1_1_100%] md:flex-[1_1_calc(50%-0.75rem)] lg:flex-[1_1_calc(33.333%-1rem)] min-w-0 bg-white dark:bg-dark-800/50 rounded-lg overflow-hidden border border-gray-200 dark:border-primary-500/20 hover:border-primary-500/50 transition-all cursor-pointer group shadow-lg dark:shadow-none"
             >
               {/* Certificate Image/Icon */}
               <div className="relative h-48 bg-gradient-to-br from-primary-100/50 to-gray-100 dark:from-primary-900/50 dark:to-dark-800 flex items-center justify-center overflow-hidden">
