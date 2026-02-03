@@ -1,0 +1,28 @@
+{
+  "languages": [
+    { "name": "Python", "level": "advanced" },
+    { "name": "JavaScript", "level": "advanced" },
+    { "name": "PHP", "level": "intermediate" },
+    { "name": "SQL", "level": "intermediate" },
+    { "name": "TypeScript", "level": "beginner" }
+  ],
+  "frameworks": [
+    { "name": "Next.js", "level": "intermediate" },
+    { "name": "React", "level": "intermediate" },
+    { "name": "Node.js", "level": "intermediate" },
+    { "name": "Laravel", "level": "beginner" }
+  ],
+  "tools": [
+    { "name": "Git", "level": "intermediate" },
+    { "name": "Linux", "level": "intermediate" },
+    { "name": "MySQL", "level": "intermediate" },
+    { "name": "PostgreSQL", "level": "intermediate" },
+    { "name": "Docker", "level": "beginner" }
+  ],
+  "learning": [
+    { "name": "Machine Learning (Computer Vision/Generative AI)", "level": "beginner" },
+    { "name": "Data Science", "level": "beginner" },
+    { "name": "Pandas", "level": "beginner" },
+    { "name": "Numpy", "level": "beginner" }
+  ]
+}

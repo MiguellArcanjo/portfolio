@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "certificates": "Certificados",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou o Miguel Arcanjo",
+    "title": "Desenvolvedor Backend",
+    "subtitle": "Especializado em PHP, Python, JavaScript e migrando para Ciência de Dados e Machine Learning",
+    "cta": "Ver Projetos",
+    "contact": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Trabalho atualmente como Suporte N1/N2 na qualitare, com experiência em PHP, Python, JavaScript, TypeScript e SQL. Estou em constante aprendizado, focando na migração para a área de Ciência de Dados e Machine Learning.",
+    "description2": "Apaixonado por tecnologia e sempre buscando novos desafios que me permitam crescer profissionalmente e contribuir com soluções inovadoras."
+  },
+  "skills": {
+    "title": "Habilidades & Tecnologias",
+    "languages": "Linguagens",
+    "frameworks": "Frameworks & Bibliotecas",
+    "tools": "Ferramentas & Outros",
+    "learning": "Estudando"
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Alguns dos meus trabalhos recentes",
+    "viewProject": "Ver Projeto",
+    "viewCode": "Ver Código",
+    "allProjects": "Todos os Projetos",
+    "featured": "Destaques",
+    "backToProjects": "Voltar para Projetos",
+    "aboutProject": "Sobre o Projeto",
+    "screenshots": "Screenshots",
+    "challenges": "Desafios",
+    "solutions": "Soluções",
+    "technologies": "Tecnologias"
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "current": "Atual"
+  },
+  "certificates": {
+    "title": "Certificados & Qualificações",
+    "subtitle": "Certificações e cursos que demonstram meu aprendizado contínuo",
+    "viewCertificate": "Ver Certificado",
+    "credentialId": "ID da Credencial",
+    "ects": "ECTS",
+    "issuedBy": "Emitido por",
+    "issuedOn": "Emitido em",
+    "noCredentialId": "N/A"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Tem alguma pergunta ou proposta? Vamos conversar!",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Erro ao enviar mensagem. Tente novamente."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados"
+  }
+}

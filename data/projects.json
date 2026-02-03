@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Dashboard Interativo",
+    "description": "Este projeto foi densevolvido na imersão de dados da Alura, onde foi utilizado o Streamlit para criar um dashboard interativo com dados de um arquivo CSV.",
+    "descriptionEn": "This project was developed during the Alura Data Immersion, where Streamlit was used to create an interactive dashboard with data from a CSV file.",
+    "image": "/projects/dash.png",
+    "technologies": ["Python", "Pandas", "Streamlit"],
+    "githubUrl": "https://github.com/MiguellArcanjo/dashboard_interativo",
+    "liveUrl": "https://dashboardinterativo-miguel.streamlit.app/",
+    "featured": true,
+    "longDescription": "Este projeto foi desenvolvido na imersão de dados da Alura, onde foi utilizado o Streamlit para criar um dashboard interativo com dados de um arquivo CSV. O dashboard foi criado com o objetivo de ajudar a analisar os dados de forma mais eficiente e visual.",
+    "longDescriptionEn": "This project was developed during the Alura Data Immersion, where Streamlit was used to create an interactive dashboard with data from a CSV file. The dashboard was created to help analyze data more efficiently and visually.",
+    "date": "Fevereiro 2025",
+    "dateEn": "February 2025",
+    "screenshots": [
+      "/projects/dash.png",
+      "/projects/dash2.png"
+    ],
+    "solutions": [
+      "Utilizei o Streamlit para criar filtros interativos permitindo ao usuário manipular os dados em tempo real.",
+      "Implementei gráficos dinâmicos que facilitam a visualização e análise dos dados apresentados."
+    ],
+    "solutionsEn": [
+      "I used Streamlit to create interactive filters allowing the user to manipulate the data in real time.",
+      "I implemented dynamic charts that facilitate the visualization and analysis of the data presented."
+    ]
+  }
+]

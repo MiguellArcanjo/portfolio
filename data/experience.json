@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Suporte N1/N2",
+    "titleEn": "Support N1/N2",
+    "company": "Qualitare",
+    "companyEn": "Qualitare",
+    "location": "João Pessoa, PB",
+    "locationEn": "João Pessoa, PB",
+    "startDate": "Maio 2025",
+    "endDate": null,
+    "current": true,
+    "description": [
+      "Presto suporte técnico N1/N2 para os clientes da empresa, solucionando dúvidas e incidentes técnicos relacionados aos produtos e serviços oferecidos, garantindo alto nível de satisfação do cliente.",
+      "Sou responsável por realizar o deploy de aplicações e sites em ambientes de produção, bem como configurar e gerenciar ambientes de homologação para testes e validações.",
+      "Atuo na validação e homologação de novos produtos e serviços, certificando-se de que estejam aptos para publicação e uso pelos clientes.",
+      "Realizo a criação de algumas páginas nos sites dos clientes.",
+      "Utilizo Git, PHP, JavaScript, Wordpress, MySQL, Laravel"
+    ],
+    "descriptionEn": [
+      "Provide technical support N1/N2 for clients of the company, assisting them with questions and technical problems related to the products and services of the company.",
+      "I am responsible for deploying applications and websites in production environments, as well as configuring and managing homologation environments for tests and validations.",
+      "I work in the validation and homologation of new products and services, ensuring that they are ready for publication and use by clients.",
+      "I create some pages on the clients' websites.",
+      "I use Git, PHP, JavaScript, Wordpress, MySQL, Laravel"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Desenvolvedor FullStack",
+    "titleEn": "FullStack Developer",
+    "company": "Fabrica de Software - Unipê",
+    "companyEn": "Software Factory - Unipê",
+    "location": "João Pessoa, PB",
+    "locationEn": "João Pessoa, PB",
+    "startDate": "Set 2023",
+    "endDate": "Jun 2024",
+    "current": false,
+    "description": [
+      "Atuei no desenvolvimento de soluções full stack para sistemas acadêmicos e internos, contribuindo tanto no frontend quanto no backend das aplicações.",
+      "Desenvolvi interfaces responsivas e acessíveis utilizando React, Next.js, HTML5 e CSS3. Participei da construção e integração de APIs REST utilizando Java (Spring Boot), Node.js e PHP, além de realizar ajustes e manutenções em sistemas existentes.",
+      "Colaborei ativamente em cerimônias ágeis, incluindo daily stand-ups, planejamento de sprints e revisões de código, seguindo a metodologia Scrum. Também utilizei Git para controle de versão e GitHub para colaboração em equipe.",
+      "Apoiei decisões técnicas relacionadas à arquitetura das aplicações e à refatoração de código legado, contribuindo para melhorias de qualidade, desempenho e manutenibilidade dos sistemas.",
+      "Ferramentas e tecnologias: React, Next.js, JavaScript, Java, Spring Boot, PHP, PostgreSQL, MySQL, Git, Postman, Figma e Scrum."
+    ],
+    "descriptionEn": [
+      "I worked on the development of full stack solutions for academic and internal systems, contributing to both the frontend and backend of applications.",
+      "I developed responsive and accessible interfaces using React, Next.js, HTML5 and CSS3. I participated in the construction and integration of REST APIs using Java (Spring Boot), Node.js and PHP, in addition to performing adjustments and maintenance on existing systems.",
+      "I actively participated in agile ceremonies, including daily stand-ups, sprint planning and code reviews, following the Scrum methodology. I also used Git for version control and GitHub for team collaboration.",
+      "I supported technical decisions related to the architecture of applications and the refactoring of legacy code, contributing to improvements in quality, performance and maintainability of systems.",
+      "Tools and technologies: React, Next.js, JavaScript, Java, Spring Boot, PHP, PostgreSQL, MySQL, Git, Postman, Figma and Scrum."
+    ]
+  }
+]

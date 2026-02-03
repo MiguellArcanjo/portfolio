@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Miguel Arcanjo",
+    "title": "Back-End Developer",
+    "subtitle": "Specialized in PHP, Python, JavaScript and migrating to Data Science and Machine Learning",
+    "cta": "View Projects",
+    "contact": "Get in Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I currently work as Support N1/N2 in Qualitare, with experience in PHP, Python, JavaScript, TypeScript and SQL. I'm constantly learning, focusing on migrating to Data Science and Machine Learning.",
+    "description2": "Passionate about technology and always seeking new challenges that allow me to grow professionally and contribute with innovative solutions."
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "languages": "Languages",
+    "frameworks": "Frameworks & Libraries",
+    "tools": "Tools & Others",
+    "learning": "Learning"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of my recent work",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "allProjects": "All Projects",
+    "featured": "Featured",
+    "backToProjects": "Back to Projects",
+    "aboutProject": "About the Project",
+    "screenshots": "Screenshots",
+    "challenges": "Challenges",
+    "solutions": "Solutions",
+    "technologies": "Technologies"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "current": "Current"
+  },
+  "certificates": {
+    "title": "Certificates & Qualifications",
+    "subtitle": "Certifications and courses that demonstrate my continuous learning",
+    "viewCertificate": "View Certificate",
+    "credentialId": "Credential ID",
+    "ects": "ECTS",
+    "issuedBy": "Issued by",
+    "issuedOn": "Issued on",
+    "noCredentialId": "N/A"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question or proposal? Let's talk!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

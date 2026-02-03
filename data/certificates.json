@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Programação em Python do básico ao avançado",
+    "titleEn": "Programming in Python from basic to advanced",
+    "issuer": "Udemy",
+    "issuerEn": "Udemy",
+    "date": "Abril 2022",
+    "dateEn": "April 2022",
+    "credentialId": "UC-2b1eebc5-e2a0-4749-a586-663601f68dcd",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-2b1eebc5-e2a0-4749-a586-663601f68dcd/",
+    "image": "/certificates/python.png",
+    "description": "Curso completo de programação em Python do básico ao avançado, com projetos práticos e desafios para testar seus conhecimentos.",
+    "descriptionEn": "Complete Python programming course from basic to advanced, with practical projects and challenges to test your knowledge.",
+    "ects": null
+  }
+]
